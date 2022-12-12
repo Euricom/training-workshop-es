@@ -1,0 +1,20 @@
+{
+  "name": "js-node",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "nodemon src/main.js "
+  },
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.16",
+    "rimraf": "^3.0.0"
+  }
+}

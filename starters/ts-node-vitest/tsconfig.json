@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node16",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist" /* Redirect output structure to the directory. */,
+    "noUncheckedIndexedAccess": true /* Include 'undefined' in index signature results */,
+    "resolveJsonModule": true /* Allow json imports */
+  },
+  "include": ["src", "jest.config.ts", "setupTests.ts"]
+}

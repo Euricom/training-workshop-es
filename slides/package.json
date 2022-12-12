@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@slidev/cli": "^0.37.1",
+    "slidev-theme-euricom": "^0.2.8"
+  }
+}
